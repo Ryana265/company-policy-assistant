@@ -1,0 +1,22 @@
+# Config (pydantic-settings reads .env)
+pydantic-settings
+
+# Logging
+loguru
+
+# Embeddings (Azure OpenAI)
+openai
+
+# Vector store
+qdrant-client
+
+# LLM (Claude via Azure AI Foundry)
+anthropic
+
+# Document loading
+pypdf
+
+# API (added at the end)
+fastapi
+uvicorn[standard]
+python-multipart  # needed by FastAPI for file uploads
